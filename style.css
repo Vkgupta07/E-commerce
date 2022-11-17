@@ -481,6 +481,9 @@ button i {
   font-size: 18px;
   margin-top: 15px;
 }
+.copyright .copyright-text img{
+  width: 200px;
+}
 
 /* SHOP STYLE */
 
@@ -753,8 +756,8 @@ font-size: 18px;
   .wid-75,
   .wid-33 {
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .header-float-left {
     float: none;
@@ -790,8 +793,14 @@ font-size: 18px;
   }
   .cart-wrapper{
       width: 100%;
-      margin-left: 30px;
+      margin-left: 0px;
+      margin-bottom: 25px;
   }
+  .offer-banner {
+    margin-bottom: 20px;
+    
+}
+
 
   .right-menu ul {
     display: block;
@@ -804,13 +813,16 @@ font-size: 18px;
   }
   .subscription-text {
     text-align: center;
-    margin-bottom: 50pxjava;
+    margin-bottom: 30px;
     padding: 1% 5% 3% 5%;
   }
   .vendors {
     display: block;
     justify-content: start;
     padding-left: 10%;
+  }
+  .vendors img{
+    padding: 0 55px;
   }
   .footer {
     display: block;
@@ -824,9 +836,12 @@ font-size: 18px;
   }
   .copyright-text {
     font-size: 17px;
+    margin: 0;
+    padding-bottom: 10px;
   }
   .copyright .copyright-text img {
-    width: 100%;
+   
     margin-top: 10px;
+    width: 300px;
   }
 }
