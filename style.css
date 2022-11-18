@@ -151,6 +151,9 @@ button i {
   /* background-color: red; */
   width: 70%;
 }
+.right-menu .padding{
+  padding-left: 100px;
+}
 .second-list-menu {
   display: flex;
   width: 30%;
@@ -599,6 +602,9 @@ button i {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.carts-detail{
+  width: 75%;
+}
 
 .carts-details table{
   width: 100%;
@@ -837,5 +843,40 @@ font-size: 18px;
   .copyright img{
     width: 100%;
   }
+
+  /* for cart-page */
+  /* .full-banner-wrapper {
+    margin-top: 34%;
+} */
+.shop-menu{
+  margin-top: 34%;
+}
+.home-menu{
+  margin-top: 0;
+}
+
+
+.carts-detail{
+  margin-left: -4%;
+
+}
+.right-menu .padding{
+  padding: 20px;
+}
+
+/* login */
+.login-area input {
+  width: 60%;
+}
+.login-area button {
+  width: 65%;
+}
+
+/* shop */
+.shop{
+  width: 75%;
+}
+
+
 
 }
